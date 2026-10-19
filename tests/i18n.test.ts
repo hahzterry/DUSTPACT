@@ -109,7 +109,7 @@ test("i18n: the language switch uses real large buttons with explicit active sta
   );
   assert.match(html, /Interface language/);
   assert.match(html, /lang="en" aria-pressed="true"/);
-  assert.match(html, /lang="ru" aria-pressed="false"/);
+  assert.match(html, /lang="eng" aria-pressed="false"/);
   assert.match(html, /Русский/);
   assert.match(html, /English/);
 });
